@@ -1,0 +1,6 @@
+[submodule "GenerationLib"]
+	path = GenerationLib
+	url = https://github.com/firejackal/GenerationLib
+[submodule "IOLib"]
+	path = IOLib
+	url = https://github.com/firejackal/IOLib
