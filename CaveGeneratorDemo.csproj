@@ -49,5 +49,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="GenerationLib\GenerationLib.csproj">
+      <Project>{3045078c-3084-4faf-97d2-ee3186986814}</Project>
+      <Name>GenerationLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="IOLib\IOLib.csproj">
+      <Project>{0aea4bd6-09f6-4bcf-b2a4-8511c0f56178}</Project>
+      <Name>IOLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
